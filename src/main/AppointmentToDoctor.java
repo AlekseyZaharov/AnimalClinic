@@ -9,6 +9,7 @@ public class AppointmentToDoctor {
     private AnimalDoctor nameDoctor;
     private Patient namePatient;
     private LocalDateTime dateTimeAppointment;
+    private RecordStatus recordStatus;
 
 
 }

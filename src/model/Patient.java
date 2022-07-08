@@ -20,5 +20,4 @@ public class Patient {
         creationDate = Instant.now();
     }
 
-
 }
