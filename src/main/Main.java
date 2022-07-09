@@ -1,16 +1,14 @@
 package main;
 
-import command.CommandReader;
-
-import static main.Authentication.authenticate;
+import command.CommandReaderImpl;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Добро пожаловать ветклинику!" );
+        System.out.println("Добро пожаловать ветклинику!");
 
- //       authenticate();
+        //       authenticate();
 
-        CommandReader.startReading();
+        CommandReaderImpl.startReading();
 
     }
 }

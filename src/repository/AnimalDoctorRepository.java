@@ -8,8 +8,8 @@ public interface AnimalDoctorRepository {
 
     Set<AnimalDoctor> findAll();
 
-    void save();
+    void add(AnimalDoctor animalDoctor);
 
-    void remove();
+    void remove(AnimalDoctor animalDoctor);
 
 }

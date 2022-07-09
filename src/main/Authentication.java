@@ -34,7 +34,7 @@ public class Authentication {
         }
     }
 
-    public static boolean validate (String login, String password) {
+    public static boolean validate(String login, String password) {
         return login.equals(LOGIN) && password.equals(PASSWORD);
     }
 }

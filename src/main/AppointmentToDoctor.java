@@ -1,5 +1,6 @@
 package main;
 
+import main.RecordStatus;
 import model.AnimalDoctor;
 import model.Patient;
 
@@ -11,5 +12,11 @@ public class AppointmentToDoctor {
     private LocalDateTime dateTimeAppointment;
     private RecordStatus recordStatus;
 
+    public AppointmentToDoctor(AnimalDoctor nameDoctor, Patient namePatient, LocalDateTime dateTimeAppointment, RecordStatus recordStatus) {
+        this.nameDoctor = nameDoctor;
+        this.namePatient = namePatient;
+        this.dateTimeAppointment = dateTimeAppointment;
+        this.recordStatus = recordStatus;
+    }
 
 }

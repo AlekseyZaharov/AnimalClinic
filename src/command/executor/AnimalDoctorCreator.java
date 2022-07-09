@@ -1,6 +1,7 @@
 package command.executor;
 
 import model.AnimalDoctor;
+import repository.impl.AnimalDoctorRepositoryImpl;
 
 import java.util.Scanner;
 
@@ -10,7 +11,9 @@ public class AnimalDoctorCreator {
         int id = 1;
         System.out.println("Введите имя доктора");
         String nameDoctor = scanner.nextLine();
-        new AnimalDoctor(id, nameDoctor);
+        AnimalDoctorRepositoryImpl.save(new AnimalDoctor(id, nameDoctor));
         System.out.println("Doctor" + nameDoctor + "create!");
+        ++id;
+
     }
 }

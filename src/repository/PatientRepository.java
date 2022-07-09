@@ -8,7 +8,7 @@ public interface PatientRepository {
 
     Set<Patient> findAll();
 
-    void save (Patient patient);
+    void add(Patient patient);
 
-    void remove (Patient patient);
+    void remove(Patient patient);
 }
