@@ -1,10 +1,9 @@
 package command;
 
 public interface CommandReader {
-    static void startReading() {
-    }
+     void startReading();
 
-    static void readCommand() {
-    }
+
+     void readCommand(String command);
 
 }

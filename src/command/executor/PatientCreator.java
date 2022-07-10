@@ -7,7 +7,7 @@ import repository.impl.PatientRepositoryImpl;
 import java.util.Scanner;
 
 public class PatientCreator {
-    public static void create() {
+    public void create() {
         Scanner scanner = new Scanner(System.in);
         int id = 1;
         System.out.println("Введите имя владельца животного");

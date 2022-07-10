@@ -1,12 +1,9 @@
 package repository.impl;
 
-import main.AppointmentToDoctor;
-import model.Patient;
+import model.AppointmentToDoctor;
 
 import java.util.HashSet;
 import java.util.Set;
-
-import static repository.impl.PatientRepositoryImpl.Patients;
 
 public class AppointmentRecord {
     static Set<AppointmentToDoctor> appointmentToDoctors= new HashSet<>();

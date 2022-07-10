@@ -10,7 +10,7 @@ public class AnimalDoctorRepositoryImpl implements AnimalDoctorRepository {
 
     static Set<AnimalDoctor> animalDoctors = new HashSet<>();
 
-    public static void save(AnimalDoctor animalDoctor) {
+    public void save(AnimalDoctor animalDoctor) {
         animalDoctors.add(animalDoctor);
         System.out.println("Доктор " + animalDoctor.getName() + "добавлен в список");
 //метод в место add, до выеснения.
